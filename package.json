@@ -11,7 +11,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "deploy-pages": "GIT_USER=acamarac02 npm run build && npx docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "^3.6.3",
